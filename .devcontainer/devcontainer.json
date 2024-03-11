@@ -1,0 +1,11 @@
+{
+	"name": "Existing Dockerfile",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {}
+	}
+}
