@@ -7,12 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Properties/launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\GymManagement.Application\GymManagement.Application.csproj" />
+    <ProjectReference Include="..\GymManagement.Contracts\GymManagement.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
